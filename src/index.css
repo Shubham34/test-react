@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+button:focus {
+  outline: none;
+}
+.multiselectBrands {
+  z-index: 1000;
+  width: 50%;
+  display: inline-block;
+}
+
+.react-multi-carousel-dot button:hover:active {
+  background: rgb(0, 153, 61) !important;
+}
+.react-multi-carousel-dot--active button {
+  background: rgb(0, 153, 61) !important;
+}
+
+.react-multi-carousel-dot-list {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.react-multi-carousel-dot button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 1;
+  padding: 5px 5px 5px 5px;
+  box-shadow: none;
+  transition: background 0.5s;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(0, 153, 61) !important;
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+  margin-right: 6px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.react-multi-carousel-list .container-with-dots {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.container-for-promo {
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.margin-from-sticky {
+  padding-top: 0px;
+}
+
+.offer-desktop {
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 1024px) {
+  .offer-desktop {
+    padding-top: 40px;
+  }
+}
+
+.offer-mobile {
+  padding-top: 40px;
+}
+
+/* .loading {
+  cursor: wait; 
+} */
+
+.disabLed {
+  pointer-events: none;
+  background-color: gray !important;
+}
+
+.loading * {
+  pointer-events: none;
+}
+
+.strike-through {
+  -webkit-text-decoration-line: line-through !important;
+  text-decoration-line: line-through !important;
+}
+
+.cartmobile {
+  padding-top: 85px !important;
+  height: 100vh !important;
+}
+
+.searchBar { 
+  position: relative;
+}
+
+.taimage{
+  font-family: 'FontAwesome' !important;
+}
+
+.fa-search{ 
+  position: absolute; 
+  padding-top: 26px;
+  padding-left: 5px;
+  top: 22px; 
+  left: 5px; 
+  z-index: 1; 
+}
+
+.react-switch{
+  vertical-align: middle;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+
+div.css-yk16xz-control{
+  height: 48px;
+  width: 100%;
+  font-size: 15px;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 500 !important;
+  color: #0D1136 !important;
+  background-color: #F7F7F7 !important;
+  border: 1px solid #f1f1f1 !important;
+}
+
+div.css-1pahdxg-control{
+  outline: none !important;
+  border: 1px solid #389244 !important;
+  box-shadow: none !important;
+  height: 48px;
+}
+
+div.reuseModalHolder{
+  width: 95% !important;
+  max-width: 750px !important;
+  margin: 0 auto !important;
+  left: 5px !important;
+  right: 5px !important;
+  height: auto !important; position: absolute !important; top: 30px !important; transform: scale(1);
+}
+
+table { height: 1px; } 
+tr { height: 100%; }
+td { height: 100%; }
+td > button { height: 100%; }
+
+.timing {
+  font-size: 3.5vw;
+}
+
+.fth {
+  padding: 10px 10px ;
+  min-width: 70px !important;
+}
+
+@media screen and (min-width: 300px) {
+  .fth {
+    padding: 10px 3px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .timing {
+    font-size: 1.5vw;
+  }
+  .fth {
+    padding: 10px 6px !important ;
+  }
+}
+
+@media screen and (min-width: 1389px) {
+  .timing {
+    font-size: 1vw;
+  }
+  .fth {
+    padding: 10px 10px !important ;
+  }
+}
+
+blockquote {
+  border:none;
+  font-family:"Lato", sans-serif !important;
+  /* margin-bottom:-30px; */
+  position: relative; 
+  max-width: 400px; 
+  padding: 10px 10px; 
+  text-align: center;
+}
+
+blockquote p {
+    font-size:21px;
+    padding-top: 75px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+blockquote p:before { 
+    content: "\201D";
+    font-weight: bold;
+    font-size:100px;
+    color:#889c0b;
+    position: absolute;
+    top: 0em;
+    left: 46%; 
+    font-family: 'Georgia'; 
+} 
+
+@media screen and (max-width: 768px) {
+  blockquote p{
+    font-size: 14px;
+    padding-top: 20px;
+  }
+
+  blockquote p:before { 
+    font-size: 30px;
+  }
+}
