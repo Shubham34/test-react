@@ -6,3 +6,4 @@ Should have node V10.0 or latest
 2. Add a ".env" file and add "REACT_APP_BASE_URL= url to node app/http://localhost:3000/"
 3. Run "npm install" to install all dependencies
 4. Run "npm start" to start the project
+5. Url for admin is http://[base_url]/admin/contacts
